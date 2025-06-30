@@ -22,7 +22,7 @@ const ContactPage = () => {
         </a>
         <a href='https://www.whatsapp.com/?lang=id_ID' target='_blank'>
           <img
-            src='/public/contact/whatsapp-logo.svg'
+            src='/contact/whatsapp-logo.svg'
             alt='whatsapp'
             className='w-12'
           />
