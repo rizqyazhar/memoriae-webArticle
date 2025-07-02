@@ -2,12 +2,12 @@ import { FaBookOpen } from "react-icons/fa";
 
 const EbookSection = () => {
   return (
-    <div className='flex flex-col gap-5'>
+    <div className='flex flex-col gap-3'>
       <div className='w-full h-24 p-3 bg-[#d6bc95] rounded-lg grid grid-cols-4 overflow-hidden'>
         <div className='col-start-1 col-end-2 rounded-sm overflow-hidden'>
           <img
-            src='/img/img-7.jpg'
-            className='w-full h-full object-cover object-center'
+            src='/img/img-7.jpeg'
+            className='w-full h-full object-cover object-[30%_50%]'
           />
         </div>
         <div className='col-start-2 col-end-5 flex items-center justify-between px-4'>
@@ -19,7 +19,7 @@ const EbookSection = () => {
             href='https://online.flippingbook.com/view/252208037/'
             target='_blank'
             rel='noopener noreferrer'>
-            <FaBookOpen className='text-xl text-white' />
+            <FaBookOpen className='text-lg text-white' />
           </a>
         </div>
       </div>

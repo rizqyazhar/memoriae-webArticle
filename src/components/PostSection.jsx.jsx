@@ -7,7 +7,7 @@ const PostSection = () => {
     navigate("/readmore");
   };
   return (
-    <div className='flex flex-col gap-5'>
+    <div className='flex flex-col gap-3'>
       <div
         className='group relative rounded-lg overflow-hidden cursor-pointer'
         onClick={handleClick}>
