@@ -2,7 +2,7 @@ import { GoMoveToTop } from "react-icons/go";
 
 const ArticleTwo = () => {
   return (
-    <div className='min-h-dvh px-3 pt-10 pb-20 bg-slate-100 font-inter flex flex-col gap-7'>
+    <div className='min-h-dvh px-3 pt-10 pb-24 bg-slate-100 font-inter flex flex-col gap-7'>
       <div className='flex flex-col gap-3'>
         <h1 className='text-3xl font-semibold'>
           Apartheid di Afrika Selatan: Dari Rezim Rasial Menuju Demokrasi
