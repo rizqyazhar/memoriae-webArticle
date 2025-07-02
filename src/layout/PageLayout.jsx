@@ -7,8 +7,6 @@ const PageLayout = () => {
     <div className='relative m-auto max-w-[430px] shadow-xl/50'>
       <Header />
       <Outlet />
-      {/* <Main /> */}
-      {/* <ReadmorePage /> */}
       <Footer />
     </div>
   );
