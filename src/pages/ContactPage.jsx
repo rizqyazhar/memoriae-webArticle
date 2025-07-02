@@ -1,6 +1,6 @@
 const ContactPage = () => {
   return (
-    <div className='min-h-dvh px-3 pt-10 bg-slate-100 font-inter flex flex-col items-center gap-10'>
+    <div className='min-h-dvh px-3 pt-10 font-inter flex flex-col items-center gap-10'>
       <h1 className='text-2xl font-medium'>Contact Us!</h1>
       <div className='flex justify-center gap-10'>
         <a href='https://www.instagram.com/' target='_blank'>

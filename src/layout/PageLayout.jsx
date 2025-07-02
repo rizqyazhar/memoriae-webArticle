@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const PageLayout = () => {
   return (
-    <div className='relative m-auto max-w-[430px] shadow-xl/50'>
+    <div className='relative m-auto max-w-[430px] shadow-xl/50 bg-slate-100'>
       <Header />
       <Outlet />
       <Footer />

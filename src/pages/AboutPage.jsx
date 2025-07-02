@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <div className='min-h-dvh px-3 pt-10 bg-slate-100 font-inter flex flex-col'>
+    <div className='min-h-dvh px-3 pt-10 font-inter flex flex-col'>
       <div className='flex flex-col gap-2 border-b border-b-slate-700 py-5'>
         <h2 className='text-xl font-medium'>Selamat datang di website kami!</h2>
         <p className='text-sm text-slate-800'>
