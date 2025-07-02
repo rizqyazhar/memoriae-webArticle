@@ -37,8 +37,8 @@ const Header = () => {
           </ul>
         </nav>
       )}
-      <div className='w-full h-full px-3 flex items-center justify-between'>
-        <div className='w-3/4 flex items-center gap-5'>
+      <div className='w-full h-full px-3 flex items-center justify-between overflow-hidden'>
+        <div className='w-3/4 flex items-center gap-3'>
           <div onClick={() => setOpenNav(!openNav)}>
             {openNav ? (
               <RxCross1 className='translate-y-0.5 cursor-pointer' />
@@ -46,11 +46,13 @@ const Header = () => {
               <RxHamburgerMenu className='translate-y-0.5 cursor-pointer' />
             )}
           </div>
-          <h1
-            className='select-none font-playfairDisplay text-2xl font-bold cursor-pointer'
-            onClick={() => navigate("/home")}>
-            Memoriae.
-          </h1>
+          <img
+            src='/logo.png'
+            alt='logo'
+            className='w-2/5 object-cover object-center translate-y-1.5'
+          />
+          {/* <div className='w-1/2 h- bg-red-400'>
+          </div> */}
         </div>
         <div className='relative w-1/4 h-fit flex items-center focus-within:outline-2 focus-within:outline-slate-500 rounded-xl'>
           <input
