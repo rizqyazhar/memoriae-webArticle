@@ -79,6 +79,18 @@ const ArticleOne = () => {
           ke tangan Tentara Salib pada 1204 sebelum direbut kembali, namun
           kekuatan kekaisaran tak pernah pulih sepenuhnya.
         </p>
+        <figure>
+          <img
+            src='/img/img-3.jpeg'
+            alt='Hagia Sophia'
+            className='w-full h-72 object-cover object-center'
+          />
+          <figcaption className='text-[10px] px-3 py-1 text-center bg-gray-200'>
+            Hagia Sophia adalah mahakarya arsitektur Kekaisaran Romawi Timur,
+            dibangun sebagai katedral agung di Konstantinopel pada masa Kaisar
+            Justinianus I. (sumber: pinterest)
+          </figcaption>
+        </figure>
         <p>
           Pada 29 Mei 1453, kota Konstantinopel jatuh ke tangan Sultan Mehmed II
           dari Kesultanan Utsmaniyah, mengakhiri riwayat Kekaisaran Romawi

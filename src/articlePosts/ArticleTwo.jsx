@@ -92,6 +92,17 @@ const ArticleTwo = () => {
           Indian Congress (SAIC) mengorganisasi kampanye non-kekerasan seperti
           Defiance Campaign (1952) dan menyusun Freedom Charter (1955).
         </p>
+        <figure>
+          <img
+            src='/img/img-4.jpeg'
+            alt='Nelson Mandela'
+            className='w-full h-96 object-cover object-top'
+          />
+          <figcaption className='text-[10px] px-3 py-1 text-center bg-gray-200'>
+            Nelson Mandela adalah pemimpin perjuangan anti-apartheid dan
+            presiden kulit hitam pertama Afrika Selatan. (sumber: pinterest)
+          </figcaption>
+        </figure>
         <p>
           Namun tragedi Sharpeville 1960, di mana aparat menembak 69 demonstran
           damai, mendorong perubahan taktik menjadi perlawanan bersenjata. ANC
