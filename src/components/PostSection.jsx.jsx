@@ -11,7 +11,7 @@ const PostSection = () => {
         onClick={() => navigate("/one")}>
         <img
           src='/img/img-1.jpeg'
-          alt='Candi Sukuh'
+          alt='Lukisan Koloseum'
           className='w-full h-full object-center object-cover group-hover:scale-110 transition-all duration-500'
         />
         <div className='absolute bottom-0 w-full h-2/5 p-3 bg-black/40 flex flex-col justify-between'>
@@ -21,7 +21,7 @@ const PostSection = () => {
           <div className='flex justify-between'>
             <div className='flex items-center gap-2'>
               <IoPersonSharp className='text-white text-xs' />
-              <p className='text-white text-xs'>John Doe</p>
+              <p className='text-white text-xs'>Kayyis Abdullah</p>
             </div>
             <p className='text-xs text-white'>01 / 07 / 2025</p>
           </div>
@@ -44,7 +44,7 @@ const PostSection = () => {
           <div className='flex justify-between'>
             <div className='flex items-center gap-2'>
               <IoPersonSharp className='text-white text-xs' />
-              <p className='text-white text-xs'>John Doe</p>
+              <p className='text-white text-xs'>Riyadh Taufiqur Rahman</p>
             </div>
             <p className='text-xs text-white'>01 / 07 / 2025</p>
           </div>

@@ -9,7 +9,7 @@ const ArticleTwo = () => {
           Multirasial
         </h1>
         <div className='flex items-center gap-2 text-sm text-gray-500'>
-          <span>John Doe</span>
+          <span>Riyadh Taufiqur Rahman</span>
           <span className='font-medium'>|</span>
           <span>Selasa, 1 Juli 2025</span>
         </div>

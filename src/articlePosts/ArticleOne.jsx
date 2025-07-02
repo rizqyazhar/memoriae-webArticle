@@ -8,7 +8,7 @@ const ArticleOne = () => {
           Runtuhnya Kekaisaran Romawi: Awal Zaman Baru bagi Eropa
         </h1>
         <div className='flex items-center gap-2 text-sm text-gray-500'>
-          <span>John Doe</span>
+          <span>Kayyis Abdullah</span>
           <span className='font-medium'>|</span>
           <span>Selasa, 1 Juli 2025</span>
         </div>

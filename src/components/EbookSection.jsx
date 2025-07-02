@@ -13,7 +13,7 @@ const EbookSection = () => {
         <div className='col-start-2 col-end-5 flex items-center justify-between px-4'>
           <div className='flex flex-col justify-center text-white'>
             <h5 className='font-medium'>Ensiklopedia Afrika Sejarah</h5>
-            <p className='text-xs'>By: John Doe</p>
+            <p className='text-xs'>Kelompok 3</p>
           </div>
           <a
             href='https://online.flippingbook.com/view/252208037/'
