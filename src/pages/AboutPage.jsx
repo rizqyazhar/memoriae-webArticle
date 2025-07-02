@@ -4,9 +4,8 @@ const AboutPage = () => {
       <div className='flex flex-col gap-2 border-b border-b-slate-700 py-5'>
         <h2 className='text-xl font-medium'>Selamat datang di website kami!</h2>
         <p className='text-sm text-slate-800'>
-          Website ini merupakan proyek tugas kelompok mata kuliah sejarah, yang
-          dibuat oleh kami, tujuh siswa yang memiliki minat besar terhadap
-          sejarah. Melalui website ini, kami ingin menyajikan artikel-artikel
+          Website ini merupakan proyek tugas kelompok mata kuliah Sejarah
+          Afrika. Melalui website ini, kami ingin menyajikan artikel-artikel
           sejarah yang informatif, akurat, dan menarik, agar generasi muda lebih
           memahami dan menghargai perjalanan masa lalu yang membentuk dunia
           seperti sekarang.
@@ -34,13 +33,11 @@ const AboutPage = () => {
       <div className='flex flex-col gap-2 py-5'>
         <h2 className='text-xl font-medium'>Anggota Kelompok Kami:</h2>
         <ul className='pl-4 list-disc list-outside text-sm text-slate-800'>
-          <li>John Doe</li>
-          <li>John Doe</li>
-          <li>John Doe</li>
-          <li>John Doe</li>
-          <li>John Doe</li>
-          <li>John Doe</li>
-          <li>John Doe</li>
+          <li>Riyadh Taufiqur Rahman</li>
+          <li>Muhammad Zulma Triyadi</li>
+          <li>Noval Sabillah</li>
+          <li>Kayyis Abdullah</li>
+          <li>Rafi Aprilian</li>
         </ul>
       </div>
     </div>
