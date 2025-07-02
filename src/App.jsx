@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router";
 import PageLayout from "./layout/PageLayout";
 import HomePage from "./pages/HomePage";
-import ReadmorePage from "./pages/ReadmorePage";
+import ArticleOne from "./articlePosts/ArticleOne";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import ArticleTwo from "./articlePosts/ArticleTwo";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -14,7 +15,8 @@ const App = () => {
         { path: "/home", element: <HomePage /> },
         { path: "/about", element: <AboutPage /> },
         { path: "/contact", element: <ContactPage /> },
-        { path: "/readmore", element: <ReadmorePage /> },
+        { path: "/one", element: <ArticleOne /> },
+        { path: "/two", element: <ArticleTwo /> },
       ],
     },
   ]);
