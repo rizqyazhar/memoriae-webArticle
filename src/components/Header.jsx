@@ -49,10 +49,9 @@ const Header = () => {
           <img
             src='/logo.png'
             alt='logo'
-            className='w-2/5 object-cover object-center translate-y-1.5'
+            className='w-2/5 object-cover object-center translate-y-1.5 cursor-pointer'
+            onClick={() => navigate("/home")}
           />
-          {/* <div className='w-1/2 h- bg-red-400'>
-          </div> */}
         </div>
         <div className='relative w-1/4 h-fit flex items-center focus-within:outline-2 focus-within:outline-slate-500 rounded-xl'>
           <input
